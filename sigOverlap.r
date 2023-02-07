@@ -16,7 +16,7 @@ sigRegions.hc <- regions[which(regions$pval<0.05),]
 regions.hc <- regions
 
 
-# read in blodo results
+# read in blood results
 load("dmrseq.blood.rdata")
 sigRegions.blood <- regions[which(regions$pval<0.05),]
 regions.blood <- regions
